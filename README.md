@@ -33,4 +33,4 @@ Using nodemon you can speed up the development process and you can install as a 
 - npm run dev
 
 ## Sample
-## Trying to fix..
+## Trying to fix
