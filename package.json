@@ -1,37 +1,35 @@
 {
-  "name": "node_eg",
+  "name": "week5_comp3104_lab_SPA_exec",
   "version": "1.0.0",
   "description": "Sampel app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No Test Configured\"",
-    "dev": "nodemon ./index.js localhost 8082"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject"
   },
-  "keywords": [
-    "sample",
-    "js",
-    "html",
-    "node",
-    "express",
-    "framework",
-    "sinatra",
-    "web",
-    "rest",
-    "restful",
-    "router",
-    "app",
-    "api"
-  ],
-  "author": {
-    "name": "Pritesh Patel",
-    "email": "sample@gb.ca"
-  },
-  "homepage": "https://nodejs.org/",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "travis": "^0.1.1",
+    "yarn": "^1.13.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+  
 }
